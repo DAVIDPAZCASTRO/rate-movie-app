@@ -4,11 +4,12 @@ import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 import MovieCard from '../components/movieCard';
+import List from "../components/movieList"
 
 export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   return (
-    <View style={styles.container}>
-      <MovieCard/>
+    <View>
+      <List/>
     </View>
   );
 }
